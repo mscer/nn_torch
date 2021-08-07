@@ -1,0 +1,38 @@
+NLP基础结构
+	textcnn
+	bi-lstm-crf
+	transformer（attention+mask）point/memory
+	bert/gpt/elmo/T5
+搜索基础结构
+	dssm/cdsm/rnndssm 孪生网络
+    represent-based/match-based
+推荐基础结构：
+	wide&deep/deepfm/deepcross/pnn/fnn/nfm/afm
+	youtube resys/din/dien/disn/mimn
+	ncf
+	esmm/mmoe
+GNN(embed/network)
+	deepwalk/node2vec/struc2vec/line/sdne/eges
+	gcn/graphSage/gat
+生成模型基础结构
+	ae
+	vae
+	gan
+自监督学习
+	masked lm 自回归模型
+	对比学习
+对比学习：
+    n-pair loss 
+    simclr simcse
+对比对抗学习：
+    对比+对抗样本
+迁移学习：
+	对抗训练
+	gradient reverse layer
+多任务
+      MOE：mmoe mmse
+      hard share： 底层共享
+      soft share： 底层之间加相似性约束
+DRL基础结构
+	MAB:
+	MDP:
