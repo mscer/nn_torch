@@ -1,0 +1,43 @@
+DIY 结构
+
+需要实现：
+0 数据相关
+    预处理
+    数据load/shuffle等
+    dataset  tokenizer/tf/pytorch
+    超参数配置化    
+
+1 模型结构（cnn/rnn/lstm/transofmersssssss）
+    共享variable
+    model
+    loss
+    optimizer
+    初始化、正则化
+    mask机制阻止梯度传播
+    自定义梯度计算
+  
+2 输出相关
+    输出权重
+    输出特定tensor
+    输出梯度
+  
+3 保存相关
+    模型结构保存
+    loss/metrices保存
+  
+4训练相关
+    学习率调整: 学习率warmup/衰减
+    梯度裁剪
+    热加载
+    early stop
+
+5 tensorboard监控
+    scalar
+    直方图
+    结构
+    观察weight分布
+
+重要
+  1 模型的可复现性；
+    tf 变量分配影响随机数种子
+    keras layer插入影响随机数种子
